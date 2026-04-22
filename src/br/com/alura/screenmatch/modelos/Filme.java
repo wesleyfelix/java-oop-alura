@@ -18,4 +18,9 @@ public class Filme extends Titulo implements Classificavel {
     public void setDiretor(String diretor) {
         this.diretor = diretor;
     }
+
+    @Override
+    public String toString() {
+        return "Filme: " + this.getNome() + " (" + this.getAnoDeLancamento() + ")";
+    }
 }
