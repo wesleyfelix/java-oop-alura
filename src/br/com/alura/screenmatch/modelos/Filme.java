@@ -10,7 +10,7 @@ public class Filme extends Titulo implements Classificavel {
     }
 
     @Override
-    public int getClassificavel() {
+    public int getClassificacao() {
         return (int) pegaMedia() / 2;
     }
 
